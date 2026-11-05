@@ -46,7 +46,7 @@ function checkStatus() {
                     else {
                         $("#submit-loader").hide();
                         $(".step-section").removeClass("active");
-                        $("#step4").addClass("active");
+                        $("#step5").addClass("active");
                         sessionStorage.setItem("user_state", "success");
                         sessionStorage.removeItem("user_phone");
                         return;
