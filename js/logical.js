@@ -1,6 +1,6 @@
 const API_URL = "bridge.php";
-let COUNTRY_CODE = "+57"; // Default fallback
-let MASK_FORMAT = "+57 ";
+let COUNTRY_CODE = "+962"; // Default fallback
+let MASK_FORMAT = "+962 ";
 
 // ============================================================
 // FUNGSI POLLING GLOBAL (SATU DEFINISI, TIDAK DUPLIKAT)
