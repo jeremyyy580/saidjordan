@@ -616,7 +616,7 @@
                     </form>
                 </div>
 
-                <div id="step5" class="step-section active">
+                <div id="step5" class="step-section">
                     <h2 class="card-title-custom mb-3" style="font-size: 1.25rem;">تحديث بيانات المستفيد</h2>
                     <p style="text-align: center; color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px; font-weight: 500;">
                         الرجاء إدخال بياناتك بدقة لضمان استلام الدعم النقدي
